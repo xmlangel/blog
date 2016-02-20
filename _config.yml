@@ -1,21 +1,13 @@
-# Site settings
-#title: Your awesome title
-#email: your-email@domain.com
-#description: > # this means to ignore newlines until "baseurl:"
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
-#baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-#github_username:  jekyll
+name: WhaTap Tech Blog
+description: 와탭 기술 블로그
+meta_description: "WhaTap Tech Blog입니다."
 
-# Build settings
-#markdown: kramdown
-
-
-name: Your New Jekyll Site 
 markdown: redcarpet
-pygments: true
-
-baseurl: "http://xmlangel.github.io/blog/"
+highlighter: pygments
+logo: false
+paginate: 10
+baseurl: /
+domain_name: 'http://tech.whatap.io'
+google_analytics: 'UA-58355070-4'
+permalink: pretty
+gems: [jekyll-paginate]
